@@ -35,7 +35,7 @@ sections:
 7. Networking
 8. Azure Active Directory 
 
-**Accounts and Subscriptions **
+**Accounts and Subscriptions**
 
 ## Azure Accounts 
 
