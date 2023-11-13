@@ -294,14 +294,14 @@ New-AzStorageAccount -ResourceGroupName
 
 ### SKU Options
 
-• Standard_LRS. Locally-redundant storage.
-• Standard_ZRS. Zone-redundant storage.
-• Standard_GRS. Geo-redundant storage.
-• Standard_RAGRS. Read access geo-redundant storage.
-• Premium_LRS. Premium locally-redundant storage.
+- Standard_LRS. Locally-redundant storage.
+- Standard_ZRS. Zone-redundant storage.
+- Standard_GRS. Geo-redundant storage.
+- Standard_RAGRS. Read access geo-redundant storage.
+- Premium_LRS. Premium locally-redundant storage.
 ### Optional Key Parameters
 
-Kind
+- Kind
 The kind parameter will allow you to specify the type of
 Storage Account.
 • Storage - General purpose Storage account that
@@ -312,11 +312,11 @@ Storage account that supports Blobs, Tables, Queues,
 Files, and Disks, with advanced features like data tiering.
 • BlobStorage -Blob Storage account which supports
 storage of Blobs only. The default value is Storage.
--Access Tier 
+- Access Tier 
 If you specify BlobStorage as the “Kind” then you must also
 include an access tier
-• Hot
-• Cold
+- Hot
+- Cold
 
 ### Create a storage container in a storage Account (using storage account name)
 ```
