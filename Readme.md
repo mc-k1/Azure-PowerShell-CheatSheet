@@ -276,9 +276,9 @@ ResourceName "Websites-PROD" -ResourceType
 "microsoft.web/sites" -ResourceGroupName "RGWebSite"
 ```
 
-***Storage***
+**Storage**
 
-##Retrieving Storage Accounts
+## Retrieving Storage Accounts
 
 ```
 Get-AzStorageAccount 
