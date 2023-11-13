@@ -148,14 +148,13 @@ $Resource.ResourceId -DestinationResourceGroupName - #Moves the resource from St
 
 **Adding Tags**
 
-###Add Tags to an existing resource group that has no tags
+### Add tags to an existing resource group that has no tags
 ```
 Set-AzResourceGroup -Name examplegroup -Tag @{Dept="IT"; Environment="Production" }
 
 ```
 
-### Adding tags to an existing
-resource group that has tags
+### Add tags to an existing resource group that has tags
 1. Get Tags
 2. Append
 3. Update/Apply Tags 
