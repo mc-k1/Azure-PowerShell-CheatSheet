@@ -168,7 +168,8 @@ Set-AzResourceGroup -Tag $tags -Name examplegroup
 
 ### Add tags to a specific resource without tags 
 ```
-$r = Get-AzResource -ResourceName examplevnet -ResourceGroupName examplegroup Set-AzResource -Tag @{ Dept="IT";Environment="Production" } -ResourceId $r.ResourceId -Force
+$r = Get-AzResource -ResourceName examplevnet -ResourceGroupName examplegroup 
+Set-AzResource -Tag @{ Dept="IT";Environment="Production" } -ResourceId $r.ResourceId -Force
 ```
 
 ### Apply all tags from an existing resource group to the resources beneath. (Note: this overrides all existing tags on the resources inside the RG)
