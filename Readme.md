@@ -104,7 +104,7 @@ Get-AzResource -ResourceType
 
 **Resource Group Provisioning & Management**
 
-###Create a new Resource Group
+### Create a new Resource Group
 ```
 New-AzResourceGroup -Name 'myResourceGroup' -Location 'westeurope' #Creates a new resource group in West Europe called "myResourceGroup"
 ```
