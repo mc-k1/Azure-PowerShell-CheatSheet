@@ -216,9 +216,9 @@ $resourcetags -ResourceId $r.ResourceId -Force
 Set-AzResourceGroup -Tag @{} -Name exampleresourcegroup
 ```
 
-***Governance***
+**Governance**
 
-**Azure Policies: View Policies and Assignments
+## Azure Policies: View Policies and Assignments
 
 ### See all policy definitions in your subscription
 ```
