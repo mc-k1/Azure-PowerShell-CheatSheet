@@ -302,21 +302,22 @@ New-AzStorageAccount -ResourceGroupName
 ### Optional Key Parameters
 
 - Kind
-The kind parameter will allow you to specify the type of
-Storage Account.
-• Storage - General purpose Storage account that
-supports storage of Blobs, Tables, Queues, Files and
-Disks.
-• StorageV2 - General Purpose Version 2 (GPv2)
-Storage account that supports Blobs, Tables, Queues,
-Files, and Disks, with advanced features like data tiering.
-• BlobStorage -Blob Storage account which supports
-storage of Blobs only. The default value is Storage.
-- Access Tier 
-If you specify BlobStorage as the “Kind” then you must also
-include an access tier
-- Hot
-- Cold
+  
+  The kind parameter will allow you to specify the type of Storage Account.
+  - Storage
+    
+    General purpose Storage account that supports storage of Blobs, Tables, Queues, Files and Disks.
+  - StorageV2
+  
+    General Purpose Version 2 (GPv2) Storage account that supports Blobs, Tables, Queues, Files, and Disks, with advanced features like data tiering.
+  - BlobStorage
+
+    Blob Storage account which supports storage of Blobs only. The default value is Storage.
+- Access Tier
+  
+  If you specify BlobStorage as the “Kind” then you must also include an access tier
+  - Hot
+  - Cold
 
 ### Create a storage container in a storage Account (using storage account name)
 ```
